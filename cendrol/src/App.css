@@ -1,0 +1,52 @@
+.App {
+  max-width: 100vw;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-image: linear-gradient(
+    to right,
+    rgba(12, 78, 200, 0.766),
+    hsl(217, 87%, 46%),
+    #3a3636
+  );
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-heading {
+  color: #50d874;
+  font-weight: bold;
+  font-size: 50px;
+  animation: cubic-bezier(0.6, -0.28, 0.735, 0.045);
+  align-items: baseline;
+}
+.heading-bounce-enter {
+  animation: bounce 10000s;
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(-100%);
+  }
+  25% {
+    transform: translateY(50%);
+  }
+  50% {
+    transform: translateY(-30%);
+  }
+  75% {
+    transform: translateY(10%);
+  }
+  100% {
+    transform: translateY(0%);
+  }
+}

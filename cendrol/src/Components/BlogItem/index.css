@@ -1,0 +1,28 @@
+.item-container {
+  background-color: aliceblue;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 150px;
+  width: 250px;
+  margin: 12px;
+}
+.heading {
+  font-size: 50px;
+  color: rgba(33, 79, 163, 0.636);
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.blog-name {
+  align-items: flex-start;
+  font-family: Roboto;
+  font-size: 26px;
+  color: rgb(5, 43, 80);
+  align-items: center;
+}
+.url {
+  font-family: Roboto;
+  font-size: 15px;
+  color: rgba(143, 51, 214, 0.862);
+  align-items: center;
+}
